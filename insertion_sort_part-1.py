@@ -23,11 +23,11 @@ def insertionSort1(n, arr):
     while j>=0 and value<arr[j]:
         arr[j+1]=arr[j]
         j-=1
-        b=str(arr)[1:-1].replace(",", "")
+        b=' '.join([str(elem) for elem in arr])
         print(b)
 
     arr[j+1]=value
-    b=str(arr)[1:-1].replace(",", "")
+    b=' '.join([str(elem) for elem in arr])
     print(b)
 
 if __name__ == '__main__':
