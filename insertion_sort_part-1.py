@@ -17,7 +17,6 @@ import sys
 def insertionSort1(n, arr):
     # Write your code here
     l=len(arr)
-    b=""
     j=l-2
     value=arr[l-1]
     while j>=0 and value<arr[j]:
